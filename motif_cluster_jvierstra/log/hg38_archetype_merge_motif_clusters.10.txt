@@ -1,0 +1,1375 @@
+You are on Duke Server: DCC
+BASE DIRECTORY:     /work/kk319
+PATH OF SOURCE:     /work/kk319/source
+PATH OF EXECUTABLE: /work/kk319/exe
+PATH OF ANNOTATION: /work/kk319/annotation
+
+Slurm Array Index:  10
+Output file:        /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11_rm_mouse_merge.bed.gz
+
+RUN: loop through each motif cluster; combine to a single bed file
+/var/spool/slurmd/job14889300/slurm_script: line 20: /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/: Is a directory
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/AHR_merge.bed
+chr11	128491	128497	AHR	7.9331
+chr11	128588	128594	AHR	7.9331
+chr11	128783	128789	AHR	7.9331
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/AIRE_merge.bed
+chr11	62728	62743	AIRE	9.8333
+chr11	63706	63721	AIRE	7.8755
+chr11	64493	64508	AIRE	7.3732
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/AP1_1_merge.bed
+chr11	60533	60541	AP1/1	7.8537
+chr11	61774	61783	AP1/1	7.37345
+chr11	62180	62188	AP1/1	8.0116
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/AP1_2_merge.bed
+chr11	60854	60865	AP1/2	7.7993
+chr11	60960	60971	AP1/2	6.207
+chr11	63683	63694	AP1/2	6.8955
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ARI5A_merge.bed
+chr11	73315	73323	ARI5A	8.0778
+chr11	87677	87687	ARI5A	7.92285
+chr11	91074	91082	ARI5A	7.5164
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ARI5B_merge.bed
+chr11	67903	67913	ARI5B	7.2886
+chr11	70517	70527	ARI5B	7.3519
+chr11	70593	70603	ARI5B	7.3519
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/BATF_merge.bed
+chr11	60846	60860	BATF	7.6437
+chr11	62568	62582	BATF	8.2239
+chr11	63688	63702	BATF	7.8052
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/BCL6_1_merge.bed
+chr11	110402	110418	BCL6/1	3.5935
+chr11	114056	114072	BCL6/1	9.0101
+chr11	139146	139162	BCL6/1	3.6887
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/BCL6_2_merge.bed
+chr11	67786	67797	BCL6/2	8.8263
+chr11	67889	67900	BCL6/2	8.3715
+chr11	77309	77320	BCL6/2	9.7373
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/CCAAT_CEBP_merge.bed
+chr11	60658	60667	CCAAT/CEBP	7.5069
+chr11	60733	60742	CCAAT/CEBP	8.3841
+chr11	60754	60764	CCAAT/CEBP	7.75305
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/CENBP_merge.bed
+chr11	129025	129040	CENBP	7.5276
+chr11	155016	155031	CENBP	7.405
+chr11	166903	166918	CENBP	7.0034
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/CPEB1_merge.bed
+chr11	60542	60550	CPEB1	8.0003
+chr11	61410	61418	CPEB1	8.0003
+chr11	61494	61502	CPEB1	7.591
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/CREB3_XBP1_merge.bed
+chr11	69197	69208	CREB3/XBP1	5.8275
+chr11	75970	75981	CREB3/XBP1	7.0317
+chr11	84706	84717	CREB3/XBP1	7.1702
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/CREB_ATF_1_merge.bed
+chr11	60963	60972	CREB/ATF/1	7.2687
+chr11	63184	63193	CREB/ATF/1	7.6034
+chr11	63473	63485	CREB/ATF/1	7.5118
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/CREB_ATF_2_merge.bed
+chr11	63472	63482	CREB/ATF/2	5.3702
+chr11	70366	70376	CREB/ATF/2	9.2435
+chr11	77014	77024	CREB/ATF/2	7.2605
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/CREB_ATF_3_merge.bed
+chr11	68992	69002	CREB/ATF/3	8.9527
+chr11	77014	77024	CREB/ATF/3	8.6963
+chr11	80441	80451	CREB/ATF/3	6.3262
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/CTCF_merge.bed
+chr11	61559	61573	CTCF	6.5513
+chr11	69037	69051	CTCF	5.6577
+chr11	69206	69220	CTCF	7.9085
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/CUX_1_merge.bed
+chr11	63139	63148	CUX/1	11.1943
+chr11	63840	63849	CUX/1	10.279
+chr11	71978	71987	CUX/1	6.5392
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/CUX_2_merge.bed
+chr11	60791	60809	CUX/2	7.4159
+chr11	63711	63729	CUX/2	6.1029
+chr11	67495	67513	CUX/2	7.6665
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/CUX_3_merge.bed
+chr11	80336	80353	CUX/3	7.1348
+chr11	84278	84295	CUX/3	8.3297
+chr11	103722	103739	CUX/3	6.9776
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/DDIT3+CEBPA_merge.bed
+chr11	63090	63099	DDIT3+CEBPA	8.1626
+chr11	65485	65494	DDIT3+CEBPA	9.9311
+chr11	67165	67174	DDIT3+CEBPA	8.9283
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/DMRT3_merge.bed
+chr11	63421	63428	DMRT3	8.5272
+chr11	70501	70508	DMRT3	8.7472
+chr11	70577	70584	DMRT3	8.8098
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/E2F_1_merge.bed
+chr11	60873	60887	E2F/1	1.0919
+chr11	60934	60948	E2F/1	8.3926
+chr11	63023	63037	E2F/1	8.7573
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/E2F_2_merge.bed
+chr11	60164	60172	E2F/2	7.7444
+chr11	60433	60441	E2F/2	7.7043
+chr11	60699	60707	E2F/2	7.6129
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/E2F_3_merge.bed
+chr11	63059	63071	E2F/3	4.7508
+chr11	63083	63095	E2F/3	4.6214
+chr11	65042	65054	E2F/3	4.4019
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/E2F_4_merge.bed
+chr11	62167	62175	E2F/4	6.9315
+chr11	84002	84010	E2F/4	7.4333
+chr11	95564	95572	E2F/4	7.2613
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/EBF1_merge.bed
+chr11	62796	62806	EBF1	7.3932
+chr11	62955	62965	EBF1	8.707
+chr11	68071	68081	EBF1	7.3011
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/EGR_merge.bed
+chr11	62021	62032	EGR	7.077
+chr11	69110	69121	EGR	6.9701
+chr11	71524	71535	EGR	7.2452
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ETS_1_merge.bed
+chr11	60097	60107	ETS/1	8.1213
+chr11	62147	62157	ETS/1	7.5313
+chr11	63561	63571	ETS/1	9.0533
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ETS_2_merge.bed
+chr11	60097	60108	ETS/2	9.79
+chr11	61540	61551	ETS/2	9.0965
+chr11	61706	61717	ETS/2	8.8229
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/EVI1_MECOM_merge.bed
+chr11	61070	61083	EVI1/MECOM	8.0467
+chr11	61956	61969	EVI1/MECOM	9.2278
+chr11	67690	67703	EVI1/MECOM	7.3518
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/EWSR1_FLI1_merge.bed
+chr11	61534	61551	EWSR1/FLI1	1.0011
+chr11	63601	63618	EWSR1/FLI1	3.8115
+chr11	67049	67066	EWSR1/FLI1	3.0324
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/Ebox_CACCTG_merge.bed
+chr11	62217	62224	Ebox/CACCTG	7.254
+chr11	62770	62777	Ebox/CACCTG	8.7042
+chr11	65030	65037	Ebox/CACCTG	7.6705
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/Ebox_CACGTG_1_merge.bed
+chr11	60518	60527	Ebox/CACGTG/1	6.5722
+chr11	62769	62778	Ebox/CACGTG/1	7.0326
+chr11	65010	65019	Ebox/CACGTG/1	7.7087
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/Ebox_CACGTG_2_merge.bed
+chr11	65009	65019	Ebox/CACGTG/2	9.3968
+chr11	66025	66034	Ebox/CACGTG/2	7.3688
+chr11	66874	66883	Ebox/CACGTG/2	7.5799
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/Ebox_CAGATGG_merge.bed
+chr11	60834	60848	Ebox/CAGATGG	8.9706
+chr11	62240	62254	Ebox/CAGATGG	8.215
+chr11	63338	63352	Ebox/CAGATGG	7.4827
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/Ebox_CAGCTG_merge.bed
+chr11	63745	63755	Ebox/CAGCTG	8.55775
+chr11	67819	67828	Ebox/CAGCTG	7.5981
+chr11	68273	68283	Ebox/CAGCTG	9.74795
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/Ebox_CATATG_merge.bed
+chr11	60834	60843	Ebox/CATATG	8.3103
+chr11	60884	60894	Ebox/CATATG	7.9057
+chr11	64263	64273	Ebox/CATATG	7.9057
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/FEZF1_merge.bed
+chr11	60121	60130	FEZF1	8.1184
+chr11	61175	61184	FEZF1	7.9449
+chr11	63607	63616	FEZF1	7.5919
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/FOX_1_merge.bed
+chr11	65322	65330	FOX/1	8.2984
+chr11	68454	68462	FOX/1	7.859
+chr11	70240	70248	FOX/1	7.9238
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/FOX_2_merge.bed
+chr11	60481	60495	FOX/2	5.4908
+chr11	61312	61326	FOX/2	3.5413
+chr11	68008	68022	FOX/2	6.0067
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/FOX_3_merge.bed
+chr11	60541	60555	FOX/3	4.8656
+chr11	61902	61923	FOX/3	6.47965
+chr11	63734	63748	FOX/3	2.1143
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/FOX_4_merge.bed
+chr11	60106	60116	FOX/4	7.2197
+chr11	60353	60363	FOX/4	8.7231
+chr11	61005	61015	FOX/4	7.3338
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/FOX_5_merge.bed
+chr11	60014	60026	FOX/5	7.1744
+chr11	60369	60385	FOX/5	7.6124
+chr11	60487	60505	FOX/5	9.436133333
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/FOX_6_merge.bed
+chr11	60489	60501	FOX/6	10.2041
+chr11	61314	61326	FOX/6	9.2262
+chr11	61398	61410	FOX/6	6.5309
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/FOX_7_merge.bed
+chr11	64242	64252	FOX/7	7.9318
+chr11	65670	65680	FOX/7	6.529
+chr11	66259	66269	FOX/7	7.1469
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/FOX_8_merge.bed
+chr11	60827	60837	FOX/8	9.1336
+chr11	62133	62143	FOX/8	5.1868
+chr11	73688	73698	FOX/8	5.5393
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/FOX_9_merge.bed
+chr11	75420	75432	FOX/9	6.4484
+chr11	75826	75838	FOX/9	7.8591
+chr11	94868	94880	FOX/9	6.328
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/GATA_merge.bed
+chr11	60508	60518	GATA	7.8837
+chr11	60838	60848	GATA	9.0888
+chr11	61253	61263	GATA	11.0243
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/GC-tract_merge.bed
+chr11	60685	60717	GC-tract	8.002216667
+chr11	60920	60940	GC-tract	8.7963
+chr11	61525	61564	GC-tract	10.79349333
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/GCM_merge.bed
+chr11	62024	62035	GCM	8.7787
+chr11	64484	64500	GCM	9.0898
+chr11	66889	66900	GCM	6.4029
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/GFI_merge.bed
+chr11	66117	66125	GFI	8.5141
+chr11	68607	68615	GFI	8.3217
+chr11	69300	69308	GFI	8.8408
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/GLIS_merge.bed
+chr11	61700	61714	GLIS	4.818
+chr11	65043	65057	GLIS	4.8218
+chr11	67895	67909	GLIS	6.0178
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/GLI_merge.bed
+chr11	60932	60942	GLI	7.5929
+chr11	62379	62389	GLI	6.7033
+chr11	66878	66888	GLI	7.2657
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/GMEB2_1_merge.bed
+chr11	91603	91616	GMEB2/1	5.0736
+chr11	115083	115096	GMEB2/1	6.0325
+chr11	121096	121109	GMEB2/1	4.9566
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/GMEB2_2_merge.bed
+chr11	61839	61846	GMEB2/2	7.2995
+chr11	94923	94930	GMEB2/2	8.6666
+chr11	123936	123944	GMEB2/2	7.92195
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/GMEB2_3_merge.bed
+chr11	165742	165757	GMEB2/3	8.2467
+chr11	234093	234107	GMEB2/3	7.9271
+chr11	262222	262236	GMEB2/3	7.3249
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/GRHL_merge.bed
+chr11	60761	60777	GRHL	7.52365
+chr11	69027	69039	GRHL	7.2288
+chr11	69546	69562	GRHL	8.4277
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HAND1_merge.bed
+chr11	65884	65898	HAND1	8.3681
+chr11	68181	68195	HAND1	7.6771
+chr11	77345	77359	HAND1	8.901
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_10_merge.bed
+chr11	60496	60509	HD/10	8.2051
+chr11	66103	66116	HD/10	7.2186
+chr11	81390	81403	HD/10	7.1675
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_11_merge.bed
+chr11	63892	63904	HD/11	6.6885
+chr11	64052	64064	HD/11	8.2902
+chr11	69559	69571	HD/11	9.558
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_12_merge.bed
+chr11	60830	60840	HD/12	7.9697
+chr11	61840	61850	HD/12	7.8016
+chr11	66108	66118	HD/12	7.5654
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_13_merge.bed
+chr11	60474	60480	HD/13	6.8526
+chr11	60717	60723	HD/13	7.1753
+chr11	63820	63826	HD/13	6.8526
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_14_merge.bed
+chr11	60714	60723	HD/14	8.2387
+chr11	61337	61346	HD/14	7.7931
+chr11	62764	62773	HD/14	7.2212
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_15_merge.bed
+chr11	62629	62638	HD/15	8.5618
+chr11	65020	65029	HD/15	7.8146
+chr11	69721	69730	HD/15	7.8146
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_16_merge.bed
+chr11	60201	60210	HD/16	8.9142
+chr11	60713	60722	HD/16	7.6778
+chr11	61872	61881	HD/16	7.7509
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_17_merge.bed
+chr11	64474	64483	HD/17	7.1929
+chr11	64903	64912	HD/17	9.4811
+chr11	69389	69398	HD/17	7.432
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_18_merge.bed
+chr11	60188	60197	HD/18	7.8289
+chr11	60200	60209	HD/18	6.4682
+chr11	60337	60346	HD/18	7.3282
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_19_merge.bed
+chr11	82743	82754	HD/19	6.5097
+chr11	84817	84828	HD/19	6.8221
+chr11	122980	122991	HD/19	7.9156
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_1_merge.bed
+chr11	60228	60240	HD/1	6.808
+chr11	71940	71952	HD/1	6.4887
+chr11	90168	90180	HD/1	7.1645
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_20_merge.bed
+chr11	62194	62200	HD/20	7.3173
+chr11	65798	65804	HD/20	8.0515
+chr11	67947	67953	HD/20	9.1375
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_21_merge.bed
+chr11	73164	73171	HD/21	8.718
+chr11	81560	81567	HD/21	8.0606
+chr11	81572	81579	HD/21	8.9036
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_22_merge.bed
+chr11	60040	60048	HD/22	9.4277
+chr11	60518	60526	HD/22	8.6663
+chr11	61688	61696	HD/22	7.9777
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_23_merge.bed
+chr11	60730	60740	HD/23	7.8271
+chr11	61857	61867	HD/23	7.8163
+chr11	68515	68525	HD/23	7.6702
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_24_merge.bed
+chr11	62619	62628	HD/24	7.5608
+chr11	102936	102945	HD/24	8.6061
+chr11	119401	119410	HD/24	8.3872
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_25_merge.bed
+chr11	71182	71190	HD/25	7.5426
+chr11	88476	88484	HD/25	8.1906
+chr11	89632	89640	HD/25	8.2794
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_2_merge.bed
+chr11	60201	60209	HD/2	8.3248
+chr11	60289	60297	HD/2	6.1151
+chr11	60743	60767	HD/2	7.803466667
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_3_merge.bed
+chr11	63085	63102	HD/3	2.4654
+chr11	68136	68153	HD/3	3.2831
+chr11	79569	79586	HD/3	3.8543
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_4_merge.bed
+chr11	60040	60048	HD/4	8.9935
+chr11	60453	60461	HD/4	7.977
+chr11	62229	62237	HD/4	6.5506
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_5_merge.bed
+chr11	65577	65593	HD/5	7.372
+chr11	71245	71261	HD/5	7.7437
+chr11	81705	81721	HD/5	7.1108
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_6_merge.bed
+chr11	61035	61050	HD/6	7.4407
+chr11	62462	62477	HD/6	7.657
+chr11	67596	67611	HD/6	8.0171
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_7_merge.bed
+chr11	60744	60758	HD/7	8.8958
+chr11	61494	61508	HD/7	7.0493
+chr11	74464	74478	HD/7	7.0493
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_8_merge.bed
+chr11	60534	60545	HD/8	7.5119
+chr11	61873	61884	HD/8	7.3601
+chr11	62194	62205	HD/8	7.392
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HD_9_merge.bed
+chr11	60284	60295	HD/9	7.6083
+chr11	63318	63329	HD/9	7.323
+chr11	64770	64781	HD/9	7.3945
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HEN1_merge.bed
+chr11	68705	68721	HEN1	9.0343
+chr11	68802	68818	HEN1	4.6308
+chr11	69058	69074	HEN1	7.4802
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HIC_1_merge.bed
+chr11	67649	67663	HIC/1	8.8712
+chr11	70290	70304	HIC/1	7.6756
+chr11	75738	75752	HIC/1	8.9229
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HIC_2_merge.bed
+chr11	67659	67666	HIC/2	10.0197
+chr11	68954	68961	HIC/2	7.7864
+chr11	69055	69062	HIC/2	9.8926
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HIF_merge.bed
+chr11	61840	61847	HIF	8.5263
+chr11	70979	70986	HIF	8.2935
+chr11	83192	83199	HIF	8.1364
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HINFP1_1_merge.bed
+chr11	70847	70857	HINFP1/1	7.2374
+chr11	94924	94934	HINFP1/1	11.3942
+chr11	122411	122421	HINFP1/1	8.3865
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HINFP1_2_merge.bed
+chr11	124177	124197	HINFP1/2	1.1681
+chr11	126433	126453	HINFP1/2	11.3394
+chr11	189471	189491	HINFP1/2	4.7175
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HINFP1_3_merge.bed
+chr11	124939	124958	HINFP1/3	3.9353
+chr11	127358	127377	HINFP1/3	2.1209
+chr11	127919	127938	HINFP1/3	3.841
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HLTF_merge.bed
+chr11	63980	63986	HLTF	6.0682
+chr11	89873	89879	HLTF	6.0925
+chr11	92676	92682	HLTF	6.0839
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HOMEZ_merge.bed
+chr11	90695	90705	HOMEZ	7.6001
+chr11	94322	94332	HOMEZ	7.6001
+chr11	95737	95747	HOMEZ	7.6278
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HSFY2_merge.bed
+chr11	73905	73920	HSFY2	9.10395
+chr11	99023	99037	HSFY2	7.1213
+chr11	100276	100290	HSFY2	8.2163
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/HSF_merge.bed
+chr11	60438	60451	HSF	7.1901
+chr11	63621	63634	HSF	7.2475
+chr11	68453	68466	HSF	9.5008
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/INSM1_merge.bed
+chr11	61546	61558	INSM1	7.5472
+chr11	62021	62033	INSM1	8.1645
+chr11	67897	67909	INSM1	8.3085
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/IRF_1_merge.bed
+chr11	61884	61896	IRF/1	7.4154
+chr11	64473	64485	IRF/1	4.7899
+chr11	66251	66263	IRF/1	7.3681
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/IRF_2_merge.bed
+chr11	60535	60551	IRF/2	7.6898
+chr11	60682	60714	IRF/2	8.74435
+chr11	61581	61597	IRF/2	7.5937
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/IRF_3_merge.bed
+chr11	72432	72444	IRF/3	7.0554
+chr11	72874	72886	IRF/3	10.6861
+chr11	115521	115533	IRF/3	7.3699
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/IRF_4_merge.bed
+chr11	67428	67443	IRF/4	6.6375
+chr11	83990	84005	IRF/4	6.5113
+chr11	84270	84285	IRF/4	6.4059
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/KAISO_merge.bed
+chr11	77071	77083	KAISO	7.5091
+chr11	94728	94740	KAISO	8.031
+chr11	99899	99913	KAISO	7.5067
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/KLF_SP_1_merge.bed
+chr11	61535	61553	KLF/SP/1	9.8026
+chr11	61837	61848	KLF/SP/1	4.3811
+chr11	62220	62231	KLF/SP/1	7.5448
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/KLF_SP_2_merge.bed
+chr11	60687	60710	KLF/SP/2	8.58225
+chr11	60927	60944	KLF/SP/2	7.7762
+chr11	61535	61568	KLF/SP/2	7.076475
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/KLF_SP_3_merge.bed
+chr11	62376	62385	KLF/SP/3	8.1375
+chr11	66113	66122	KLF/SP/3	7.5461
+chr11	70523	70532	KLF/SP/3	7.9368
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/LEF1_merge.bed
+chr11	62403	62416	LEF1	7.6495
+chr11	62963	62981	LEF1	7.5953
+chr11	64452	64465	LEF1	7.3477
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/LIN54_merge.bed
+chr11	60415	60422	LIN54	7.4747
+chr11	66774	66781	LIN54	7.7463
+chr11	71826	71833	LIN54	8.1547
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/MAF_merge.bed
+chr11	63766	63783	MAF	9.7994
+chr11	68771	68786	MAF	9.4882
+chr11	68797	68814	MAF	7.98295
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/MBD2_merge.bed
+chr11	93920	93929	MBD2	7.1886
+chr11	113777	113786	MBD2	7.7062
+chr11	125417	125426	MBD2	7.8425
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/MECP2_merge.bed
+chr11	112790	112797	MECP2	8.59
+chr11	125139	125146	MECP2	9.1728
+chr11	126631	126638	MECP2	8.6734
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/MEF2_merge.bed
+chr11	60678	60688	MEF2	6.2602
+chr11	61406	61416	MEF2	7.3631
+chr11	64191	64201	MEF2	7.1024
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/MFZ1_merge.bed
+chr11	61541	61549	MFZ1	9.9512
+chr11	68936	68944	MFZ1	8.2268
+chr11	70510	70518	MFZ1	8.1326
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/MIES_merge.bed
+chr11	61956	61968	MIES	8.2483
+chr11	65220	65232	MIES	8.2483
+chr11	68519	68531	MIES	8.3235
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/MTF1_merge.bed
+chr11	69789	69803	MTF1	9.2711
+chr11	70032	70046	MTF1	6.5045
+chr11	77099	77113	MTF1	6.203
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/MYB_1_merge.bed
+chr11	83329	83341	MYB/1	6.8503
+chr11	83405	83416	MYB/1	6.9509
+chr11	98526	98538	MYB/1	7.9694
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/MYB_2_merge.bed
+chr11	63631	63645	MYB/2	4.8555
+chr11	64284	64298	MYB/2	7.4424
+chr11	66307	66321	MYB/2	4.9109
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/MYB_3_merge.bed
+chr11	70353	70365	MYB/3	8.1268
+chr11	117530	117542	MYB/3	7.2315
+chr11	125776	125788	MYB/3	6.2593
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/MYB_4_merge.bed
+chr11	70352	70360	MYB/4	8.4372
+chr11	79216	79224	MYB/4	8.4123
+chr11	91358	91366	MYB/4	8.1419
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/MYB_5_merge.bed
+chr11	63290	63298	MYB/5	8.2516
+chr11	66905	66913	MYB/5	8.5188
+chr11	67536	67544	MYB/5	8.4787
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/MZF1_merge.bed
+chr11	60432	60448	MZF1	8.4051
+chr11	61539	61555	MZF1	7.2709
+chr11	62017	62033	MZF1	10.3688
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NFAC_2_merge.bed
+chr11	60117	60129	NFAC/2	7.5311
+chr11	60684	60696	NFAC/2	8.1343
+chr11	60826	60838	NFAC/2	7.7658
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NFAT_1_merge.bed
+chr11	61086	61095	NFAT/1	8.5032
+chr11	61312	61321	NFAT/1	9.0608
+chr11	62713	62722	NFAT/1	9.0608
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NFAT_2_merge.bed
+chr11	60707	60722	NFAT/2	7.6403
+chr11	61311	61326	NFAT/2	8.2735
+chr11	62708	62723	NFAT/2	7.4613
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NFAT_3_merge.bed
+chr11	64665	64680	NFAT/3	6.649
+chr11	85447	85462	NFAT/3	5.0487
+chr11	88890	88905	NFAT/3	5.5828
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NFAT_4_merge.bed
+chr11	67132	67144	NFAT/4	5.5755
+chr11	81216	81228	NFAT/4	5.206
+chr11	90555	90567	NFAT/4	6.0209
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NFI_1_merge.bed
+chr11	63875	63890	NFI/1	7.44875
+chr11	68765	68779	NFI/1	3.6703
+chr11	69227	69242	NFI/1	5.9594
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NFI_2_merge.bed
+chr11	60516	60522	NFI/2	9.8459
+chr11	66887	66893	NFI/2	6.7901
+chr11	68622	68628	NFI/2	6.902
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NFI_3_merge.bed
+chr11	61083	61096	NFI/3	7.2673
+chr11	62251	62264	NFI/3	7.8779
+chr11	63606	63619	NFI/3	7.2211
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NFKB_1_merge.bed
+chr11	64953	64963	NFKB/1	7.392
+chr11	68451	68462	NFKB/1	7.49765
+chr11	68898	68908	NFKB/1	8.4977
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NFKB_2_merge.bed
+chr11	68450	68461	NFKB/2	3.1738
+chr11	69844	69855	NFKB/2	5.7477
+chr11	77044	77056	NFKB/2	10.3503
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NFKB_3_merge.bed
+chr11	61578	61590	NFKB/3	7.2972
+chr11	67138	67150	NFKB/3	7.8596
+chr11	69278	69290	NFKB/3	8.181
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NFY_merge.bed
+chr11	61872	61882	NFY	8.0396
+chr11	62374	62384	NFY	9.9938
+chr11	72710	72720	NFY	7.7486
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NR2E3_merge.bed
+chr11	60985	60991	NR2E3	7.6438
+chr11	61972	61978	NR2E3	7.6438
+chr11	73037	73043	NR2E3	7.6438
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NRF1_merge.bed
+chr11	97590	97601	NRF1	10.4038
+chr11	123325	123336	NRF1	7.1988
+chr11	124937	124948	NRF1	6.5316
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NR_10_merge.bed
+chr11	73802	73819	NR/10	8.8947
+chr11	76282	76299	NR/10	3.2825
+chr11	78463	78480	NR/10	4.699
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NR_11_merge.bed
+chr11	60605	60618	NR/11	7.3498
+chr11	61855	61868	NR/11	6.543
+chr11	64742	64755	NR/11	8.1819
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NR_12_merge.bed
+chr11	60605	60622	NR/12	7.8397
+chr11	61540	61558	NR/12	7.57835
+chr11	61850	61867	NR/12	3.2697
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NR_13_merge.bed
+chr11	62702	62716	NR/13	2.2983
+chr11	63118	63132	NR/13	5.6738
+chr11	65257	65271	NR/13	6.6481
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NR_14_merge.bed
+chr11	61090	61102	NR/14	8.5989
+chr11	63500	63512	NR/14	9.1994
+chr11	72570	72582	NR/14	9.2382
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NR_15_merge.bed
+chr11	61489	61504	NR/15	7.3681
+chr11	65346	65361	NR/15	8.0507
+chr11	65424	65439	NR/15	5.9165
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NR_16_merge.bed
+chr11	62226	62247	NR/16	7.4016
+chr11	63288	63304	NR/16	6.9208
+chr11	63465	63481	NR/16	7.1409
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NR_17_merge.bed
+chr11	62248	62263	NR/17	2.1837
+chr11	69049	69064	NR/17	8.3424
+chr11	69197	69212	NR/17	4.811
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NR_18_merge.bed
+chr11	62538	62555	NR/18	7.4388
+chr11	67308	67329	NR/18	8.2048
+chr11	68087	68104	NR/18	6.9726
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NR_19_merge.bed
+chr11	60111	60122	NR/19	7.7908
+chr11	61594	61605	NR/19	7.5785
+chr11	62023	62034	NR/19	10.4806
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NR_1_merge.bed
+chr11	60605	60618	NR/1	9.6396
+chr11	61540	61553	NR/1	6.0907
+chr11	62425	62438	NR/1	4.5323
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NR_20_merge.bed
+chr11	61178	61192	NR/20	8.912
+chr11	63559	63574	NR/20	8.0539
+chr11	66827	66841	NR/20	8.094
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NR_2_merge.bed
+chr11	62011	62024	NR/2	7.1478
+chr11	72526	72539	NR/2	8.3561
+chr11	72569	72582	NR/2	7.0943
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NR_3_merge.bed
+chr11	60605	60619	NR/3	7.6219
+chr11	61536	61556	NR/3	9.8054
+chr11	62020	62034	NR/3	7.8665
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NR_4_merge.bed
+chr11	73813	73825	NR/4	8.8956
+chr11	77824	77836	NR/4	7.2996
+chr11	82942	82954	NR/4	2.4374
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NR_5_merge.bed
+chr11	76780	76796	NR/5	3.7608
+chr11	77841	77857	NR/5	5.0116
+chr11	78130	78146	NR/5	5.1475
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NR_6_merge.bed
+chr11	75531	75546	NR/6	1.3524
+chr11	86317	86333	NR/6	2.20785
+chr11	87219	87234	NR/6	1.9131
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NR_7_merge.bed
+chr11	61779	61794	NR/7	7.7632
+chr11	62255	62270	NR/7	7.2126
+chr11	62571	62586	NR/7	8.3248
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NR_8_merge.bed
+chr11	62229	62247	NR/8	3.8345
+chr11	78373	78391	NR/8	3.7226
+chr11	92259	92277	NR/8	4.8352
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/NR_9_merge.bed
+chr11	70940	70957	NR/9	6.9377
+chr11	82446	82463	NR/9	4.7411
+chr11	83490	83507	NR/9	6.3783
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/OCT4+SOX2_merge.bed
+chr11	62756	62770	OCT4+SOX2	9.0391
+chr11	67798	67812	OCT4+SOX2	8.1679
+chr11	71074	71088	OCT4+SOX2	7.3291
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/OSR2_merge.bed
+chr11	69268	69279	OSR2	7.9383
+chr11	69367	69378	OSR2	10.005
+chr11	69955	69966	OSR2	7.5792
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/OVOL1_merge.bed
+chr11	68585	68594	OVOL1	8.8694
+chr11	93608	93617	OVOL1	8.3847
+chr11	93929	93938	OVOL1	8.3847
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/P53-like_1_merge.bed
+chr11	64505	64521	P53-like/1	5.1485
+chr11	68168	68184	P53-like/1	8.2547
+chr11	68812	68832	P53-like/1	7.27985
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/PAX-halfsite_merge.bed
+chr11	61842	61848	PAX-halfsite	7.3744
+chr11	117465	117471	PAX-halfsite	7.5081
+chr11	125632	125638	PAX-halfsite	6.7797
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/PAX_1_merge.bed
+chr11	65927	65941	PAX/1	8.1642
+chr11	69252	69266	PAX/1	8.4396
+chr11	71190	71204	PAX/1	7.4615
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/PAX_2_merge.bed
+chr11	61831	61848	PAX/2	8.1493
+chr11	67658	67675	PAX/2	7.552
+chr11	68073	68090	PAX/2	8.5746
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/PLAG1_merge.bed
+chr11	61547	61561	PLAG1	5.8748
+chr11	62211	62225	PLAG1	7.0908
+chr11	68216	68230	PLAG1	7.3601
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/POU_1_merge.bed
+chr11	60207	60216	POU/1	8.2141
+chr11	60478	60495	POU/1	9.49345
+chr11	60947	60956	POU/1	7.9504
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/POU_2_merge.bed
+chr11	60201	60213	POU/2	9.0603
+chr11	60529	60541	POU/2	8.3489
+chr11	61903	61915	POU/2	7.8568
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/POU_3_merge.bed
+chr11	60478	60490	POU/3	7.3623
+chr11	61399	61411	POU/3	6.9847
+chr11	61455	61469	POU/3	7.7302
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/PRDM14_merge.bed
+chr11	69017	69028	PRDM14	7.2928
+chr11	77639	77650	PRDM14	7.737
+chr11	77824	77835	PRDM14	9.3774
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/PRDM1_merge.bed
+chr11	60688	60699	PRDM1	8.7217
+chr11	60704	60715	PRDM1	6.4088
+chr11	61118	61129	PRDM1	8.0967
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/PRDM4_merge.bed
+chr11	61612	61625	PRDM4	3.7222
+chr11	63458	63471	PRDM4	2.3273
+chr11	63863	63876	PRDM4	2.6553
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/PROX1_merge.bed
+chr11	92391	92401	PROX1	5.9706
+chr11	102481	102491	PROX1	6.0424
+chr11	107571	107581	PROX1	6.3132
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/RBPJ_merge.bed
+chr11	64241	64250	RBPJ	15.1843
+chr11	67137	67146	RBPJ	10.7249
+chr11	68501	68510	RBPJ	6.3142
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/REL-halfsite_merge.bed
+chr11	61581	61588	REL-halfsite	8.2254
+chr11	66713	66720	REL-halfsite	8.5641
+chr11	66870	66877	REL-halfsite	7.5453
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/REST_NRSF_merge.bed
+chr11	60601	60619	REST/NRSF	4.87
+chr11	68980	68998	REST/NRSF	4.71
+chr11	76358	76376	REST/NRSF	3.6665
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/RFX_1_merge.bed
+chr11	60293	60307	RFX/1	8.1619
+chr11	65800	65814	RFX/1	7.3756
+chr11	67000	67014	RFX/1	7.1502
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/RFX_2_merge.bed
+chr11	68606	68619	RFX/2	4.7428
+chr11	88943	88956	RFX/2	6.5426
+chr11	105583	105596	RFX/2	9.0023
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/RFX_3_merge.bed
+chr11	69367	69380	RFX/3	9.5676
+chr11	74404	74417	RFX/3	7.316
+chr11	76882	76895	RFX/3	7.062
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/RUNX_1_merge.bed
+chr11	60149	60159	RUNX/1	7.7275
+chr11	60921	60931	RUNX/1	7.8593
+chr11	61644	61654	RUNX/1	8.2883
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/RUNX_2_merge.bed
+chr11	61687	61701	RUNX/2	5.9735
+chr11	64283	64297	RUNX/2	6.6613
+chr11	74778	74792	RUNX/2	7.0616
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/SCRT1_merge.bed
+chr11	60763	60773	SCRT1	6.5298
+chr11	65477	65487	SCRT1	5.5412
+chr11	67816	67826	SCRT1	5.0356
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/SIX_1_merge.bed
+chr11	60599	60610	SIX/1	8.0034
+chr11	60764	60775	SIX/1	7.4848
+chr11	62244	62255	SIX/1	6.9839
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/SIX_2_merge.bed
+chr11	62033	62046	SIX/2	6.9733
+chr11	63417	63430	SIX/2	7.3021
+chr11	71031	71044	SIX/2	8.389
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/SMAD_merge.bed
+chr11	60162	60175	SMAD	7.3855
+chr11	60696	60707	SMAD	7.5478
+chr11	61539	61549	SMAD	8.2535
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/SMARCA1_merge.bed
+chr11	61388	61398	SMARCA1	8.6914
+chr11	62108	62118	SMARCA1	8.0734
+chr11	63875	63885	SMARCA1	7.4351
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/SMARCA5_merge.bed
+chr11	60037	60056	SMARCA5	6.6799
+chr11	60119	60138	SMARCA5	3.3727
+chr11	60582	60601	SMARCA5	4.9967
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/SNAI2_merge.bed
+chr11	62188	62194	SNAI2	9.0612
+chr11	65660	65666	SNAI2	9.0731
+chr11	69041	69047	SNAI2	8.5212
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/SOX_1_merge.bed
+chr11	60857	60870	SOX/1	7.8469
+chr11	61235	61248	SOX/1	7.9582
+chr11	61602	61615	SOX/1	7.891
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/SOX_2_merge.bed
+chr11	60066	60072	SOX/2	7.544
+chr11	62739	62745	SOX/2	7.6025
+chr11	62871	62877	SOX/2	7.544
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/SOX_3_merge.bed
+chr11	62521	62534	SOX/3	1.0978
+chr11	63090	63103	SOX/3	3.611
+chr11	65485	65506	SOX/3	4.2495
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/SOX_4_merge.bed
+chr11	62437	62452	SOX/4	4.3969
+chr11	62704	62719	SOX/4	1.0533
+chr11	64554	64569	SOX/4	5.5537
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/SOX_5_merge.bed
+chr11	63810	63824	SOX/5	5.56
+chr11	65762	65776	SOX/5	6.586
+chr11	74631	74645	SOX/5	1.0676
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/SOX_6_merge.bed
+chr11	62704	62720	SOX/6	8.5485
+chr11	63101	63117	SOX/6	5.1196
+chr11	63631	63647	SOX/6	5.5364
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/SOX_7_merge.bed
+chr11	63480	63496	SOX/7	2.9662
+chr11	81427	81443	SOX/7	2.2295
+chr11	110941	110957	SOX/7	3.3323
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/SOX_8_merge.bed
+chr11	67826	67840	SOX/8	1.1201
+chr11	68815	68829	SOX/8	3.0235
+chr11	76068	76082	SOX/8	7.7009
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/SPDEF_1_merge.bed
+chr11	65895	65908	SPDEF/1	4.46
+chr11	65925	65938	SPDEF/1	8.6616
+chr11	78740	78753	SPDEF/1	4.9879
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/SPDEF_2_merge.bed
+chr11	63526	63540	SPDEF/2	8.7848
+chr11	64986	65000	SPDEF/2	5.3466
+chr11	65367	65381	SPDEF/2	10.1211
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/SPI_merge.bed
+chr11	61585	61597	SPI	7.8695
+chr11	62017	62029	SPI	6.8146
+chr11	62058	62070	SPI	7.85
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/SPZ1_merge.bed
+chr11	69066	69077	SPZ1	9.0122
+chr11	70548	70559	SPZ1	7.6184
+chr11	70625	70636	SPZ1	7.6184
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/SREBF1_merge.bed
+chr11	61540	61549	SREBF1	7.6704
+chr11	65406	65415	SREBF1	8.449
+chr11	68666	68675	SREBF1	9.556
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/SRF_merge.bed
+chr11	62938	62951	SRF	6.3135
+chr11	64463	64476	SRF	8.4384
+chr11	66144	66157	SRF	7.8036
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/STAT_1_merge.bed
+chr11	64736	64746	STAT/1	7.7193
+chr11	72063	72073	STAT/1	11.2473
+chr11	76139	76149	STAT/1	7.9173
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/STAT_2_merge.bed
+chr11	62105	62114	STAT/2	7.3182
+chr11	62505	62514	STAT/2	8.2044
+chr11	62990	62999	STAT/2	7.3635
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/TATA_merge.bed
+chr11	65036	65046	TATA	7.8199
+chr11	72145	72154	TATA	7.3913
+chr11	72273	72282	TATA	8.1015
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/TBX_1_merge.bed
+chr11	60663	60679	TBX/1	8.8829
+chr11	61619	61635	TBX/1	8.419
+chr11	65311	65327	TBX/1	7.5745
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/TBX_2_merge.bed
+chr11	68992	69009	TBX/2	6.085
+chr11	69795	69813	TBX/2	9.32015
+chr11	77011	77028	TBX/2	1.1701
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/TBX_3_merge.bed
+chr11	60153	60171	TBX/3	9.0071
+chr11	61219	61237	TBX/3	7.7221
+chr11	61560	61578	TBX/3	6.7585
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/TBX_4_merge.bed
+chr11	60156	60179	TBX/4	7.7123
+chr11	61210	61233	TBX/4	5.4186
+chr11	61611	61634	TBX/4	7.7123
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/TCF_LEF_merge.bed
+chr11	60030	60040	TCF/LEF	9.1897
+chr11	61950	61960	TCF/LEF	8.6732
+chr11	63911	63921	TCF/LEF	9.4495
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/TEAD_merge.bed
+chr11	60135	60148	TEAD	7.1515
+chr11	64332	64345	TEAD	9.6727
+chr11	67205	67218	TEAD	6.952
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/TFAP2_1_merge.bed
+chr11	62285	62294	TFAP2/1	8.0453
+chr11	65568	65577	TFAP2/1	8.483
+chr11	67898	67907	TFAP2/1	8.0573
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/TFAP2_2_merge.bed
+chr11	62174	62185	TFAP2/2	7.1859
+chr11	62955	62966	TFAP2/2	7.5453
+chr11	68217	68228	TFAP2/2	9.3058
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/TFCP2_merge.bed
+chr11	69541	69556	TFCP2	7.5433
+chr11	74191	74206	TFCP2	6.9233
+chr11	79178	79193	TFCP2	7.0952
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/THAP1_merge.bed
+chr11	68154	68162	THAP1	7.7145
+chr11	75920	75928	THAP1	7.4719
+chr11	78889	78897	THAP1	7.6799
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/YY1_merge.bed
+chr11	61938	61949	YY1	7.1967
+chr11	62171	62185	YY1	7.598
+chr11	62291	62302	YY1	8.4104
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZBED1_merge.bed
+chr11	134041	134053	ZBED1	10.0942
+chr11	182755	182767	ZBED1	10.0329
+chr11	229709	229720	ZBED1	5.2297
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZBTB14_merge.bed
+chr11	123988	123996	ZBTB14	7.6262
+chr11	149812	149820	ZBTB14	7.4772
+chr11	180307	180315	ZBTB14	7.7002
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZBTB48_merge.bed
+chr11	68174	68183	ZBTB48	7.7811
+chr11	68874	68883	ZBTB48	8.4473
+chr11	77331	77340	ZBTB48	7.6477
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZBTB49_merge.bed
+chr11	87390	87406	ZBTB49	2.4012
+chr11	92641	92657	ZBTB49	5.3949
+chr11	97581	97597	ZBTB49	2.6595
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZBTB6_merge.bed
+chr11	63027	63039	ZBTB6	7.0982
+chr11	74143	74155	ZBTB6	10.0548
+chr11	75798	75810	ZBTB6	7.3452
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZBTB7A_merge.bed
+chr11	65221	65228	ZBTB7A	8.6482
+chr11	68214	68221	ZBTB7A	8.4273
+chr11	68294	68301	ZBTB7A	9.3668
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZFN121_merge.bed
+chr11	65004	65023	ZFN121	4.3951
+chr11	68160	68179	ZFN121	5.6109
+chr11	69047	69078	ZFN121	4.8311
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZFX_merge.bed
+chr11	61562	61573	ZFX	11.3331
+chr11	62210	62221	ZFX	11.5612
+chr11	63460	63471	ZFX	8.4232
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZIC_2_merge.bed
+chr11	61537	61555	ZIC/2	7.9259125
+chr11	62379	62387	ZIC/2	7.9744
+chr11	65045	65053	ZIC/2	7.2068
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZIC_merge.bed
+chr11	69824	69837	ZIC	5.7296
+chr11	69994	70007	ZIC	6.778
+chr11	70523	70549	ZIC	8.83975
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZIM3_merge.bed
+chr11	61736	61750	ZIM3	8.0226
+chr11	63799	63813	ZIM3	6.3306
+chr11	63992	64006	ZIM3	8.8698
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZKSCAN1_merge.bed
+chr11	62371	62386	ZKSCAN1	7.5932
+chr11	65659	65673	ZKSCAN1	10.1607
+chr11	68549	68563	ZKSCAN1	8.8312
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF134_merge.bed
+chr11	65146	65166	ZNF134	6.632
+chr11	66018	66038	ZNF134	7.1628
+chr11	71196	71216	ZNF134	8.7127
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF136_merge.bed
+chr11	60146	60168	ZNF136	3.3052
+chr11	61912	61934	ZNF136	2.8771
+chr11	65897	65919	ZNF136	3.3219
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF140_merge.bed
+chr11	65017	65035	ZNF140	10.5419
+chr11	69976	69994	ZNF140	6.0344
+chr11	70024	70042	ZNF140	7.2442
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF143_merge.bed
+chr11	60109	60128	ZNF143	8.3741
+chr11	60160	60179	ZNF143	8.1902
+chr11	60994	61013	ZNF143	8.1902
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF146_merge.bed
+chr11	60045	60067	ZNF146	2.8965
+chr11	62636	62658	ZNF146	11.0788
+chr11	64031	64053	ZNF146	2.9447
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF232_merge.bed
+chr11	60468	60484	ZNF232	4.7581
+chr11	62544	62560	ZNF232	2.3935
+chr11	74371	74387	ZNF232	2.94
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF24_merge.bed
+chr11	60134	60145	ZNF24	6.8244
+chr11	62626	62637	ZNF24	9.2819
+chr11	65154	65169	ZNF24	8.48585
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF250_merge.bed
+chr11	61941	61959	ZNF250	9.2667
+chr11	62854	62872	ZNF250	1.3918
+chr11	66113	66131	ZNF250	5.2587
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF257_merge.bed
+chr11	66650	66660	ZNF257	7.4092
+chr11	69973	69983	ZNF257	7.4359
+chr11	77012	77022	ZNF257	7.1054
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF274_merge.bed
+chr11	60616	60636	ZNF274	6.3867
+chr11	66565	66585	ZNF274	8.2071
+chr11	68336	68356	ZNF274	6.7989
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF282_merge.bed
+chr11	67839	67853	ZNF282	5.332
+chr11	68933	68947	ZNF282	6.5219
+chr11	69632	69646	ZNF282	4.3045
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF28_merge.bed
+chr11	61167	61186	ZNF28	6.2373
+chr11	64447	64466	ZNF28	6.4381
+chr11	64987	65006	ZNF28	8.3238
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF306_merge.bed
+chr11	60575	60587	ZNF306	7.3838
+chr11	69011	69023	ZNF306	3.4884
+chr11	76154	76166	ZNF306	5.3878
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF317_merge.bed
+chr11	62054	62073	ZNF317	6.7935
+chr11	62753	62772	ZNF317	7.5068
+chr11	63369	63388	ZNF317	9.6311
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF320_merge.bed
+chr11	61537	61562	ZNF320	6.2655
+chr11	65400	65428	ZNF320	5.73645
+chr11	69713	69732	ZNF320	6.5864
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF324_merge.bed
+chr11	62210	62229	ZNF324	7.8814
+chr11	62277	62296	ZNF324	7.0245
+chr11	65387	65406	ZNF324	7.7773
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF329_merge.bed
+chr11	64607	64627	ZNF329	1.7955
+chr11	75827	75853	ZNF329	2.66825
+chr11	77346	77366	ZNF329	2.4288
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF331_merge.bed
+chr11	68276	68295	ZNF331	9.1876
+chr11	75809	75828	ZNF331	5.1704
+chr11	76012	76031	ZNF331	4.867
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF332_merge.bed
+chr11	62236	62253	ZNF332	7.7763
+chr11	69228	69245	ZNF332	7.4191
+chr11	69782	69799	ZNF332	7.0826
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF335_merge.bed
+chr11	66965	66985	ZNF335	7.9543
+chr11	69056	69076	ZNF335	9.4192
+chr11	76070	76090	ZNF335	7.2648
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF354_merge.bed
+chr11	60114	60145	ZNF354	8.72645
+chr11	60546	60571	ZNF354	6.6892
+chr11	60627	60652	ZNF354	7.0218
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF382_merge.bed
+chr11	60230	60251	ZNF382	8.128
+chr11	68952	68973	ZNF382	7.0269
+chr11	72544	72565	ZNF382	16.6671
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF384_1_merge.bed
+chr11	63170	63177	ZNF384/1	7.6938
+chr11	71999	72006	ZNF384/1	8.093
+chr11	72947	72954	ZNF384/1	8.7778
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF384_2_merge.bed
+chr11	60370	60377	ZNF384/2	8.666
+chr11	62312	62320	ZNF384/2	8.26585
+chr11	62862	62871	ZNF384/2	8.0551
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF410_merge.bed
+chr11	74406	74418	ZNF410	2.8681
+chr11	81146	81158	ZNF410	1.4754
+chr11	91093	91105	ZNF410	2.0445
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF418_merge.bed
+chr11	60584	60598	ZNF418	7.2239
+chr11	60918	60932	ZNF418	7.3182
+chr11	62256	62270	ZNF418	7.1555
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF41_merge.bed
+chr11	61348	61370	ZNF41	7.6206
+chr11	61607	61629	ZNF41	6.1059
+chr11	62059	62081	ZNF41	5.9245
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF423_merge.bed
+chr11	61621	61635	ZNF423	4.8667
+chr11	62372	62386	ZNF423	3.5015
+chr11	65132	65146	ZNF423	6.2408
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF435_merge.bed
+chr11	60494	60509	ZNF435	4.2131
+chr11	68112	68127	ZNF435	1.117
+chr11	80022	80037	ZNF435	5.599
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF436_merge.bed
+chr11	75773	75796	ZNF436	2.5121
+chr11	78049	78072	ZNF436	1.9364
+chr11	79133	79156	ZNF436	2.1901
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF449_merge.bed
+chr11	60933	60942	ZNF449	8.9809
+chr11	68617	68626	ZNF449	7.7245
+chr11	69871	69880	ZNF449	7.2955
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF490_merge.bed
+chr11	60806	60827	ZNF490	1.5518
+chr11	71658	71679	ZNF490	1.3858
+chr11	77750	77771	ZNF490	1.9168
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF524_merge.bed
+chr11	61593	61604	ZNF524	5.806
+chr11	69986	69997	ZNF524	7.123
+chr11	70915	70926	ZNF524	6.619
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF528_merge.bed
+chr11	74282	74297	ZNF528	5.768
+chr11	77045	77060	ZNF528	8.5186
+chr11	77455	77470	ZNF528	5.8396
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF53_merge.bed
+chr11	65857	65863	ZNF53	7.3545
+chr11	66261	66267	ZNF53	7.3545
+chr11	69246	69252	ZNF53	7.3545
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF547_merge.bed
+chr11	76761	76780	ZNF547	6.8039
+chr11	78497	78516	ZNF547	6.6352
+chr11	83456	83475	ZNF547	6.9328
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF549_merge.bed
+chr11	68263	68279	ZNF549	7.7678
+chr11	69780	69796	ZNF549	8.2893
+chr11	75811	75827	ZNF549	6.4997
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF554_merge.bed
+chr11	60513	60531	ZNF554	8.0359
+chr11	65005	65023	ZNF554	7.5828
+chr11	68198	68216	ZNF554	8.7677
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF563_merge.bed
+chr11	62165	62184	ZNF563	7.2497
+chr11	69008	69027	ZNF563	8.1197
+chr11	69044	69063	ZNF563	10.34
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF586_merge.bed
+chr11	64605	64625	ZNF586	1.0521
+chr11	71523	71543	ZNF586	5.1787
+chr11	88005	88025	ZNF586	7.9014
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF667_merge.bed
+chr11	62224	62242	ZNF667	8.0478
+chr11	68183	68201	ZNF667	7.8963
+chr11	68277	68295	ZNF667	9.6785
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF680_merge.bed
+chr11	60385	60404	ZNF680	3.6036
+chr11	62297	62316	ZNF680	3.4255
+chr11	63649	63668	ZNF680	4.071
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF708_merge.bed
+chr11	60690	60707	ZNF708	6.5075
+chr11	61169	61186	ZNF708	9.2528
+chr11	61532	61549	ZNF708	7.2784
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF713_merge.bed
+chr11	60142	60158	ZNF713	1.0747
+chr11	61751	61767	ZNF713	3.7526
+chr11	71301	71317	ZNF713	2.1743
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF768_merge.bed
+chr11	60426	60443	ZNF768	5.4671
+chr11	60689	60714	ZNF768	6.11875
+chr11	65405	65422	ZNF768	5.6016
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF784_merge.bed
+chr11	78335	78345	ZNF784	10.0235
+chr11	95314	95324	ZNF784	8.9141
+chr11	120775	120785	ZNF784	6.3962
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZNF85_merge.bed
+chr11	60673	60694	ZNF85	2.7876
+chr11	60801	60818	ZNF85	7.194
+chr11	61014	61031	ZNF85	7.6471
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZSCAN3_merge.bed
+chr11	70030	70045	ZSCAN3	8.1945
+chr11	70537	70552	ZSCAN3	9.5448
+chr11	75756	75771	ZSCAN3	7.1398
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/ZSCAN4_merge.bed
+chr11	67970	67983	ZSCAN4	4.0996
+chr11	70211	70224	ZSCAN4	4.6837
+chr11	76967	76980	ZSCAN4	3.7913
+
+Input file:  /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr11/_merge.bed
+
+RUN: sort and compress
+Done!

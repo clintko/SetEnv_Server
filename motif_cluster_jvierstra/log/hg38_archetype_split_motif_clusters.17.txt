@@ -1,0 +1,289 @@
+You are on Duke Server: DCC
+BASE DIRECTORY:     /work/kk319
+PATH OF SOURCE:     /work/kk319/source
+PATH OF EXECUTABLE: /work/kk319/exe
+PATH OF ANNOTATION: /work/kk319/annotation
+
+Slurm Array Index:  17
+Input  file:        /work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr18_rm_mouse.bed.gz
+
+Show the first few lines of the input file
+/work/kk319/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr18_rm_mouse.bed.gz
+chr18	10002	10019	KLF/SP/2	3.7536	-	RREB1_MA0073.1	1
+chr18	10008	10025	KLF/SP/2	2.3914	-	RREB1_MA0073.1	1
+chr18	10008	10028	GC-tract	6.8470	-	MAZ_HUMAN.H11MO.0.A	2
+
+RUN: loop through each motif cluster; filter and output to a bed file
+       AHR         AHR
+      AIRE        AIRE
+     AP1/1       AP1_1
+     AP1/2       AP1_2
+     ARI5A       ARI5A
+     ARI5B       ARI5B
+      BATF        BATF
+    BCL6/1      BCL6_1
+    BCL6/2      BCL6_2
+CCAAT/CEBP  CCAAT_CEBP
+     CENBP       CENBP
+     CPEB1       CPEB1
+CREB/ATF/1  CREB_ATF_1
+CREB/ATF/2  CREB_ATF_2
+CREB/ATF/3  CREB_ATF_3
+CREB3/XBP1  CREB3_XBP1
+      CTCF        CTCF
+     CUX/1       CUX_1
+     CUX/2       CUX_2
+     CUX/3       CUX_3
+DDIT3+CEBPA  DDIT3+CEBPA
+     DMRT3       DMRT3
+     E2F/1       E2F_1
+     E2F/2       E2F_2
+     E2F/3       E2F_3
+     E2F/4       E2F_4
+      EBF1        EBF1
+       EGR         EGR
+     ETS/1       ETS_1
+     ETS/2       ETS_2
+EVI1/MECOM  EVI1_MECOM
+EWSR1/FLI1  EWSR1_FLI1
+Ebox/CACCTG  Ebox_CACCTG
+Ebox/CACGTG/1  Ebox_CACGTG_1
+Ebox/CACGTG/2  Ebox_CACGTG_2
+Ebox/CAGATGG  Ebox_CAGATGG
+Ebox/CAGCTG  Ebox_CAGCTG
+Ebox/CATATG  Ebox_CATATG
+     FEZF1       FEZF1
+     FOX/1       FOX_1
+     FOX/2       FOX_2
+     FOX/3       FOX_3
+     FOX/4       FOX_4
+     FOX/5       FOX_5
+     FOX/6       FOX_6
+     FOX/7       FOX_7
+     FOX/8       FOX_8
+     FOX/9       FOX_9
+      GATA        GATA
+  GC-tract    GC-tract
+       GCM         GCM
+       GFI         GFI
+       GLI         GLI
+      GLIS        GLIS
+   GMEB2/1     GMEB2_1
+   GMEB2/2     GMEB2_2
+   GMEB2/3     GMEB2_3
+      GRHL        GRHL
+     HAND1       HAND1
+      HD/1        HD_1
+     HD/10       HD_10
+     HD/11       HD_11
+     HD/12       HD_12
+     HD/13       HD_13
+     HD/14       HD_14
+     HD/15       HD_15
+     HD/16       HD_16
+     HD/17       HD_17
+     HD/18       HD_18
+     HD/19       HD_19
+      HD/2        HD_2
+     HD/20       HD_20
+     HD/21       HD_21
+     HD/22       HD_22
+     HD/23       HD_23
+     HD/24       HD_24
+     HD/25       HD_25
+      HD/3        HD_3
+      HD/4        HD_4
+      HD/5        HD_5
+      HD/6        HD_6
+      HD/7        HD_7
+      HD/8        HD_8
+      HD/9        HD_9
+      HEN1        HEN1
+     HIC/1       HIC_1
+     HIC/2       HIC_2
+       HIF         HIF
+  HINFP1/1    HINFP1_1
+  HINFP1/2    HINFP1_2
+  HINFP1/3    HINFP1_3
+      HLTF        HLTF
+     HOMEZ       HOMEZ
+       HSF         HSF
+     HSFY2       HSFY2
+     INSM1       INSM1
+     IRF/1       IRF_1
+     IRF/2       IRF_2
+     IRF/3       IRF_3
+     IRF/4       IRF_4
+     KAISO       KAISO
+  KLF/SP/1    KLF_SP_1
+  KLF/SP/2    KLF_SP_2
+  KLF/SP/3    KLF_SP_3
+      LEF1        LEF1
+     LIN54       LIN54
+       MAF         MAF
+      MBD2        MBD2
+     MECP2       MECP2
+      MEF2        MEF2
+      MFZ1        MFZ1
+      MIES        MIES
+      MTF1        MTF1
+     MYB/1       MYB_1
+     MYB/2       MYB_2
+     MYB/3       MYB_3
+     MYB/4       MYB_4
+     MYB/5       MYB_5
+      MZF1        MZF1
+    NFAC/2      NFAC_2
+    NFAT/1      NFAT_1
+    NFAT/2      NFAT_2
+    NFAT/3      NFAT_3
+    NFAT/4      NFAT_4
+     NFI/1       NFI_1
+     NFI/2       NFI_2
+     NFI/3       NFI_3
+    NFKB/1      NFKB_1
+    NFKB/2      NFKB_2
+    NFKB/3      NFKB_3
+       NFY         NFY
+      NR/1        NR_1
+     NR/10       NR_10
+     NR/11       NR_11
+     NR/12       NR_12
+     NR/13       NR_13
+     NR/14       NR_14
+     NR/15       NR_15
+     NR/16       NR_16
+     NR/17       NR_17
+     NR/18       NR_18
+     NR/19       NR_19
+      NR/2        NR_2
+     NR/20       NR_20
+      NR/3        NR_3
+      NR/4        NR_4
+      NR/5        NR_5
+      NR/6        NR_6
+      NR/7        NR_7
+      NR/8        NR_8
+      NR/9        NR_9
+     NR2E3       NR2E3
+      NRF1        NRF1
+ OCT4+SOX2   OCT4+SOX2
+      OSR2        OSR2
+     OVOL1       OVOL1
+P53-like/1  P53-like_1
+PAX-halfsite  PAX-halfsite
+     PAX/1       PAX_1
+     PAX/2       PAX_2
+     PLAG1       PLAG1
+     POU/1       POU_1
+     POU/2       POU_2
+     POU/3       POU_3
+     PRDM1       PRDM1
+    PRDM14      PRDM14
+     PRDM4       PRDM4
+     PROX1       PROX1
+      RBPJ        RBPJ
+REL-halfsite  REL-halfsite
+ REST/NRSF   REST_NRSF
+     RFX/1       RFX_1
+     RFX/2       RFX_2
+     RFX/3       RFX_3
+    RUNX/1      RUNX_1
+    RUNX/2      RUNX_2
+     SCRT1       SCRT1
+     SIX/1       SIX_1
+     SIX/2       SIX_2
+      SMAD        SMAD
+   SMARCA1     SMARCA1
+   SMARCA5     SMARCA5
+     SNAI2       SNAI2
+     SOX/1       SOX_1
+     SOX/2       SOX_2
+     SOX/3       SOX_3
+     SOX/4       SOX_4
+     SOX/5       SOX_5
+     SOX/6       SOX_6
+     SOX/7       SOX_7
+     SOX/8       SOX_8
+   SPDEF/1     SPDEF_1
+   SPDEF/2     SPDEF_2
+       SPI         SPI
+      SPZ1        SPZ1
+    SREBF1      SREBF1
+       SRF         SRF
+    STAT/1      STAT_1
+    STAT/2      STAT_2
+      TATA        TATA
+     TBX/1       TBX_1
+     TBX/2       TBX_2
+     TBX/3       TBX_3
+     TBX/4       TBX_4
+   TCF/LEF     TCF_LEF
+      TEAD        TEAD
+   TFAP2/1     TFAP2_1
+   TFAP2/2     TFAP2_2
+     TFCP2       TFCP2
+     THAP1       THAP1
+       YY1         YY1
+     ZBED1       ZBED1
+    ZBTB14      ZBTB14
+    ZBTB48      ZBTB48
+    ZBTB49      ZBTB49
+     ZBTB6       ZBTB6
+    ZBTB7A      ZBTB7A
+    ZFN121      ZFN121
+       ZFX         ZFX
+       ZIC         ZIC
+     ZIC/2       ZIC_2
+      ZIM3        ZIM3
+   ZKSCAN1     ZKSCAN1
+    ZNF134      ZNF134
+    ZNF136      ZNF136
+    ZNF140      ZNF140
+    ZNF143      ZNF143
+    ZNF146      ZNF146
+    ZNF232      ZNF232
+     ZNF24       ZNF24
+    ZNF250      ZNF250
+    ZNF257      ZNF257
+    ZNF274      ZNF274
+     ZNF28       ZNF28
+    ZNF282      ZNF282
+    ZNF306      ZNF306
+    ZNF317      ZNF317
+    ZNF320      ZNF320
+    ZNF324      ZNF324
+    ZNF329      ZNF329
+    ZNF331      ZNF331
+    ZNF332      ZNF332
+    ZNF335      ZNF335
+    ZNF354      ZNF354
+    ZNF382      ZNF382
+  ZNF384/1    ZNF384_1
+  ZNF384/2    ZNF384_2
+     ZNF41       ZNF41
+    ZNF410      ZNF410
+    ZNF418      ZNF418
+    ZNF423      ZNF423
+    ZNF435      ZNF435
+    ZNF436      ZNF436
+    ZNF449      ZNF449
+    ZNF490      ZNF490
+    ZNF524      ZNF524
+    ZNF528      ZNF528
+     ZNF53       ZNF53
+    ZNF547      ZNF547
+    ZNF549      ZNF549
+    ZNF554      ZNF554
+    ZNF563      ZNF563
+    ZNF586      ZNF586
+    ZNF667      ZNF667
+    ZNF680      ZNF680
+    ZNF708      ZNF708
+    ZNF713      ZNF713
+    ZNF768      ZNF768
+    ZNF784      ZNF784
+     ZNF85       ZNF85
+    ZSCAN3      ZSCAN3
+    ZSCAN4      ZSCAN4
+Done!
