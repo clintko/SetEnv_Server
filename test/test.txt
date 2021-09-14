@@ -1,0 +1,106 @@
+You are on Duke Server: HARDAC
+BASE DIRECTORY:     /gpfs/fs1/data/reddylab/Kuei
+PATH OF SOURCE:     /gpfs/fs1/data/reddylab/Kuei/source
+PATH OF EXECUTABLE: /gpfs/fs1/data/reddylab/Kuei/exe
+PATH OF ANNOTATION: /gpfs/fs1/data/reddylab/Kuei/annotation
+PATH OF PROJECT:    /gpfs/fs1/data/reddylab/Kuei/GitRepo/Settool_Bio
+
+You are on Duke Server: HARDAC
+BASE DIRECTORY:     /gpfs/fs1/data/reddylab/Kuei
+PATH OF SOURCE:     /gpfs/fs1/data/reddylab/Kuei/source
+PATH OF EXECUTABLE: /gpfs/fs1/data/reddylab/Kuei/exe
+PATH OF ANNOTATION: /gpfs/fs1/data/reddylab/Kuei/annotation
+PATH OF PROJECT:    /gpfs/fs1/data/reddylab/Kuei/GitRepo/Settool_Bio
+
+You are within a singularity image
+BASE DIRECTORY:     /home/mount/work
+PATH OF SOURCE:     /home/mount/work/source
+PATH OF EXECUTABLE: /home/mount/work/exe
+PATH OF ANNOTATION: /home/mount/work/annotation
+PATH OF PROJECT:    /home/mount/project
+
+annotation
+exe
+GitRepo
+out
+singularity
+source
+source_old
+venv
+++++++++++++++++++++++++++++
+A549_histone_mods
+Alex
+Analyses
+Apoorva
+bmajoros
+btk20
+chris
+ciofanilab
+clarity_lims_backup
+cshoben
+Dan
+Darryl
+Datasets
+Dewran
+external_data
+Flowcells
+gjohnson
+GSD
+Hazel
+HKDC1_locus_STARR_seq
+icm10
+JoshCao
+Jungkyun
+katie
+Keith
+kstrouse
+Kuei
+Laavanya
+miseq_windows
+Pompe
+projects
+Qianzi
+reddytest
+reference
+Reference_Data
+refGene.txt
+Revathy
+scarlett
+Schuyler
+scunningham
+shengyu
+Shengyu
+Shiyu
+software
+Tapestation
+TestData
+Tim
+tmp
+UDN
+webpages
+Xingyan
+YoungSook
+You are on Duke Server: HARDAC
+BASE DIRECTORY:     /gpfs/fs1/data/reddylab/Kuei
+PATH OF SOURCE:     /gpfs/fs1/data/reddylab/Kuei/source
+PATH OF EXECUTABLE: /gpfs/fs1/data/reddylab/Kuei/exe
+PATH OF ANNOTATION: /gpfs/fs1/data/reddylab/Kuei/annotation
+PATH OF PROJECT:    /gpfs/fs1/data/reddylab/Kuei/GitRepo/Settool_Bio
+
+3.7.6 | packaged by conda-forge | (default, Jun  1 2020, 18:57:50) 
+[GCC 7.5.0]
+You are on Duke Server: HARDAC
+BASE DIRECTORY:     /gpfs/fs1/data/reddylab/Kuei
+PATH OF SOURCE:     /gpfs/fs1/data/reddylab/Kuei/source
+PATH OF EXECUTABLE: /gpfs/fs1/data/reddylab/Kuei/exe
+PATH OF ANNOTATION: /gpfs/fs1/data/reddylab/Kuei/annotation
+PATH OF PROJECT:    /gpfs/fs1/data/reddylab/Kuei/GitRepo/Settool_Bio
+
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
+✔ ggplot2 3.3.5     ✔ purrr   0.3.4
+✔ tibble  3.1.3     ✔ dplyr   1.0.7
+✔ tidyr   1.1.3     ✔ stringr 1.4.0
+✔ readr   2.0.1     ✔ forcats 0.5.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
