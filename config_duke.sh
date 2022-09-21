@@ -9,35 +9,38 @@ if echo $(pwd -P) | grep -q "gpfs"; then
     FD_CODE=${FD_PREFIX}/data/reddylab/Kuei/GitRepo
     FD_RLAB=${FD_PREFIX}/data/reddylab
     FD_SING=${FD_WORK}/singularity
-    
-    ### set working paths
-    FD_ANN=${FD_WORK}/annotation
-    FD_SRC=${FD_WORK}/source
-    FD_EXE=${FD_WORK}/exe
-    FD_BAC=${FD_WORK}/backup
 fi
 
 if echo $(pwd -P) | grep -q "hpc"; then
     SERVER=DCC
     NODE=scavenger
     
-    FD_PREFIX="/hpc"
-    FD_WORK=/work/kk319
-    FD_CODE=${FD_PREFIX}/home/kk319/GitRepo
-    FD_RLAB=${FD_PREFIX}/group/reddylab
-    FD_SING=${FD_RLAB}/Kuei/singularity
+    FD_WORK=/datacommons/reddylab_s/kk319
+    FD_CODE=/hpc/home/kk319/GitRepo
+    FD_RLAB=/hpc/group/reddylab
+    FD_SING=${FD_WORK}/singularity
     
     ### set working paths
-    FD_ANN=${FD_RLAB}/Kuei/annotation
-    FD_SRC=${FD_RLAB}/Kuei/source
-    FD_EXE=${FD_RLAB}/Kuei/exe
+    #FD_PREFIX="/hpc"
+    #FD_WORK=/work/kk319
+    #FD_SING=${FD_RLAB}/Kuei/singularity
+    #FD_ANN=${FD_RLAB}/Kuei/annotation
+    #FD_SRC=${FD_RLAB}/Kuei/source
+    #FD_EXE=${FD_RLAB}/Kuei/exe
 fi
 
+### set working paths
+FD_ANN=${FD_WORK}/annotation
+FD_SRC=${FD_WORK}/source
+FD_EXE=${FD_WORK}/exe
+FD_BIN=${FD_WORK}/bin
+FD_BAC=${FD_WORK}/backup
+
 ### set project related paths
+FD_PRJ=${FD_CODE}/Settool_Bio
 FD_PRJ=${FD_CODE}/Proj_CombEffect_STARRseq/notebooks
 FD_RES=${FD_WORK}/out/proj_combeffect
 FD_LOG=${FD_RES}/log
-FD_BIN=${FD_WORK}/bin
 
 show_env() {
     echo "You are on Duke Server: ${SERVER}"
