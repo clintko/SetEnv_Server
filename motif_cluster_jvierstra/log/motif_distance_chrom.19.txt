@@ -1,0 +1,34 @@
+You are on Duke Server: HARDAC
+BASE DIRECTORY:     /gpfs/fs1/data/reddylab/Kuei
+PATH OF SOURCE:     /gpfs/fs1/data/reddylab/Kuei/source
+PATH OF EXECUTABLE: /gpfs/fs1/data/reddylab/Kuei/exe
+PATH OF ANNOTATION: /gpfs/fs1/data/reddylab/Kuei/annotation
+PATH OF PROJECT:    /gpfs/fs1/data/reddylab/Kuei/GitRepo/Settool_Bio
+PATH OF RESULTS:    
+
+Slurm Array Index:  19
+++++++++++++++++++++++++++++++++++++++++++++++++
+Input  file:  /gpfs/fs1/data/reddylab/Kuei/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr20/AP1_1_merge.bed
+Input  file:  /gpfs/fs1/data/reddylab/Kuei/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr20/NR_20_merge.bed
+Output file:  /gpfs/fs1/data/reddylab/Kuei/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/dist_chr20/AP1_1_NR_20.bed
+
+Show the first few lines of the input file
+/gpfs/fs1/data/reddylab/Kuei/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr20/AP1_1_merge.bed
+chr20	69264	69273	AP1/1	7.0608
+chr20	72228	72236	AP1/1	8.8263
+chr20	77411	77419	AP1/1	8.3144
+/gpfs/fs1/data/reddylab/Kuei/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/chr20/NR_20_merge.bed
+chr20	60164	60178	NR/20	7.3571
+chr20	69142	69156	NR/20	8.6216
+chr20	70708	70723	NR/20	7.0414
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++
+Show the first few lines of the output file
+/gpfs/fs1/data/reddylab/Kuei/annotation/motif_cluster_jvierstra/hg38_archetype_motifs_v1/dist_chr20/AP1_1_NR_20.bed
+chr20	69264	69273	AP1/1	7.0608	chr20	69142	69156	NR/20	8.6216	109
+chr20	72228	72236	AP1/1	8.8263	chr20	72513	72527	NR/20	7.812	278
+chr20	77411	77419	AP1/1	8.3144	chr20	77281	77295	NR/20	7.2598	117
+
+Done!
+Run Time: 0 seconds
